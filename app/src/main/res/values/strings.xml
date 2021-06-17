@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="trivia">Trivia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_is_your_name">What is your name ?</string>
+    <string name="what_is_the_best_cricketer_in_the_world">Who is the best cricketer in the world ?</string>
+    <string name="adam_gilchrist">Adam Gilchrist</string>
+    <string name="jacques_kallis">Jacques Kallis</string>
+    <string name="virat_kholi">Virat Kholi</string>
+    <string name="sachin_tendulkar">Sachin Tendulkar</string>
+    <string name="next">Next</string>
+    <string name="what_are_the_colors_in_the_indian_national_flag">What are the colors in the Indian national flag?</string>
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>
+    <string name="yellow">Yellow</string>
+    <string name="white">White</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="summary">SUMMARY</string>
+    <string name="hello">Hello</string>
+    <string name="name">Name</string>
+    <string name="answer">Answer : </string>
+    <string name="cricket_selected">Cricket Selected</string>
+    <string name="colors_checked">Colors Checked</string>
+    <string name="comma">,</string>
+    <string name="finish">Finish</string>
+    <string name="history">History</string>
+    <string name="game_number">Game Number</string>
+    <string name="game">GAME</string>
+    <string name="colon"> : </string>
+    <string name="date_time">Date-Time</string>
+    <string name="reset_history">Reset History</string>
+    <string name="restart_game">Restart Game</string>
+    <string name="name_1">Name :</string>
+</resources>

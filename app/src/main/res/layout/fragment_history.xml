@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.HistoryFragment">
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorAccent"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_history"
+            android:layout_alignParentRight="true" />
+        <Button
+            android:id="@+id/restartGame"
+            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/colorAccent"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_height="wrap_content"
+            android:text="@string/restart_game"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/reset"
+            android:id="@+id/historyRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:spanCount="2"
+            tools:listitem="@layout/history_view" />
+
+
+    </RelativeLayout>
+</layout>

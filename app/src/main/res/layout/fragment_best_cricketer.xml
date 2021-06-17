@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BestCricketerFragment">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_is_the_best_cricketer_in_the_world"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_margin="15dp"
+        android:layout_below="@id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/sachin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="@string/sachin_tendulkar"/>
+        <RadioButton
+            android:id="@+id/virat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="@string/virat_kholi"/>
+        <RadioButton
+            android:id="@+id/adam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="@string/adam_gilchrist"/>
+        <RadioButton
+            android:id="@+id/jack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="@string/jacques_kallis"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondary"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:text="@string/next"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"/>
+
+
+
+</RelativeLayout>
+
+</layout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FlagColoursFragment">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_are_the_colors_in_the_indian_national_flag"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/white"
+        android:layout_below="@id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/white"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/white"
+        android:layout_margin="15dp"
+        android:text="@string/yellow"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yellow"
+        android:layout_margin="15dp"
+        android:text="@string/orange"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orange"
+        android:layout_margin="15dp"
+        android:text="@string/green"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:text="@string/next"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textColor="@color/colorPrimaryText" />
+
+
+</RelativeLayout>
+</layout>
